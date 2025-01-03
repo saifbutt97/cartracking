@@ -1,0 +1,4 @@
+db:
+  logger: "file"
+  logging: ['error']
+  syncronize: false

@@ -1,0 +1,21 @@
+server:
+  port: 13000
+
+db:
+  type: 'mysql'
+  user: 'root'
+  password: ''
+  database: 'cartracking'
+  host: '127.0.0.1'
+  port: '3306'
+  synchronize: true
+  logging: 'all'
+  logger: 'advanced-console'
+
+application:
+  url: 'http://localhost:13000/'
+  angularUrl: 'http://localhost:4200'
+
+jwt:
+  secret: 'mubi-msi-acp-best-secret'
+  expiresIn: 3600
